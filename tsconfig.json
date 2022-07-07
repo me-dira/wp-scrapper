@@ -14,6 +14,12 @@
     "outDir": "./lib",
     "baseUrl": "./",
     "incremental": true,
+    "paths": {
+      "@interface/*": ["./src/interface/*"],
+      "@core/*": ["./src/interface/*"],
+      "@type/*": ["./src/type/*"],
+      "src/*": ["./src/*"],
+    }
   },
 
   "include": [
