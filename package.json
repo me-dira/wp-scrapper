@@ -1,0 +1,42 @@
+{
+  "name": "wp-scrapper",
+  "version": "0.0.1",
+  "description": "Extract data from wordpress websites",
+  "main": "index.ts",
+  "repository": "https://github.com/me-dira/wp-scrapper",
+  "author": "me-dira <mediraworkm@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/eventsource": "^1.1.6",
+    "@types/jest": "^26.0.24",
+    "@typescript-eslint/eslint-plugin": "^5.30.5",
+    "@typescript-eslint/parser": "^5.30.5",
+    "eslint": "^8.19.0",
+    "eslint-config-google": "^0.14.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-config-xo": "^0.41.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "jest": "^27.0.6",
+    "module-alias-jest": "^0.0.3",
+    "prettier": "^2.7.1",
+    "prettier-eslint": "^15.0.1",
+    "prettier-eslint-cli": "^6.0.1",
+    "ts-jest": "^27.0.4",
+    "typescript": "^4.7.4"
+  },
+  "scripts": {
+    "test": "jest --config jest.config.js",
+    "build": "tsc",
+    "format": "prettier --write \"src/**/*.ts\" \"src/**/*.js\"",
+    "lint": "eslint",
+    "prepare": "npm run build",
+    "prepublish": "tsc",
+    "prepublishOnly": "npm test && npm run lint",
+    "preversion": "npm run lint",
+    "version": "npm run format && git add -A src",
+    "postversion": "git push && git push --tags"
+  },
+  "_aliases": {
+    "@root": "."
+  }
+}
