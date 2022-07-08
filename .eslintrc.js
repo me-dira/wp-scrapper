@@ -10,5 +10,5 @@ module.exports = {
 		sourceType: 'module',
 	},
 	plugins: ['@typescript-eslint', 'prettier'],
-	rules: {},
+	rules: {indent: 'off'},
 };
