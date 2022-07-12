@@ -39,6 +39,7 @@
 	},
 	"_moduleAliases": {
 		"@interface": "lib/interface",
+		"@constant": "lib/constant",
 		"@core": "lib/interface",
 		"@type": "lib/type",
 		"src": "."

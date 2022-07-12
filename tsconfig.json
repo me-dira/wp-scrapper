@@ -19,6 +19,8 @@
       "@interface/*": ["./src/interface/*"],
       "@core/*": ["./src/interface/*"],
       "@type/*": ["./src/type/*"],
+		  "@constant/*": ["lib/type"],
+
       "src/*": ["./src/*"]
     }
   },
