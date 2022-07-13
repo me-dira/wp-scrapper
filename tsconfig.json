@@ -17,6 +17,7 @@
     "incremental": true,
     "paths": {
       "@interface/*": ["./src/interface/*"],
+      "@service/*": ["./src/servie/*"],
       "@core/*": ["./src/interface/*"],
       "@type/*": ["./src/type/*"],
 		  "@constant/*": ["lib/type"],

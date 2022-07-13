@@ -40,8 +40,12 @@
 	"_moduleAliases": {
 		"@interface": "lib/interface",
 		"@constant": "lib/constant",
+		"@service": "lib/service",
 		"@core": "lib/interface",
 		"@type": "lib/type",
 		"src": "."
+	},
+	"dependencies": {
+		"axios": "^0.27.2"
 	}
 }

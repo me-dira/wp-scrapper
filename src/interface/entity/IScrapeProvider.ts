@@ -1,7 +1,7 @@
 import {WpInfo} from '@interface/abstract/WpInfo';
-import {IScrapeOptions} from '@interface/entity/IScrapeOption';
+import {IScrapeLoadOption} from './IScrapeLoadOption';
 
 export interface IScrapeProvider {
   // eslint-disable-next-line no-unused-vars
-  read(readOptions: IScrapeOptions): Promise<WpInfo>;
+  load(loadOptions: IScrapeLoadOption): Promise<WpInfo>;
 }
