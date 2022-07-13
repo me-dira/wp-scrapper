@@ -5,7 +5,7 @@
  * this class contains very essential types.
  */
 
-import {WpInfoType} from 'src/core/constants/WpInfo.const';
+import {WpInfoType} from '@constant/WpInfo.const';
 import {Entity} from './Entity';
 
 export abstract class WpInfo extends Entity {

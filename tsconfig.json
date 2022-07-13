@@ -16,11 +16,11 @@
     "baseUrl": "./",
     "incremental": true,
     "paths": {
+      "@constant/*": ["./src/core/constant/*"],
       "@interface/*": ["./src/interface/*"],
-      "@service/*": ["./src/servie/*"],
+      "@service/*": ["./src/core/service/*"],
       "@core/*": ["./src/interface/*"],
       "@type/*": ["./src/type/*"],
-		  "@constant/*": ["lib/type"],
 
       "src/*": ["./src/*"]
     }

@@ -1,4 +1,6 @@
+import {WpInfoType} from '@constant/WpInfo.const';
+
 export interface IScrapeOptions {
-  type: string;
+  type: WpInfoType;
   address: string;
 }
