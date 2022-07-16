@@ -2,10 +2,14 @@
   "name": "wp-scrapper",
   "version": "0.0.114",
   "description": "Extract data from wordpress websites",
-  "main": "index.ts",
+  "types": "lib/index.d.ts",
+  "main": "lib/index.js",
   "repository": "https://github.com/me-dira/wp-scrapper",
   "author": "me-dira <mediraworkm@gmail.com>",
   "license": "MIT",
+  "files": [
+    "lib"
+  ],
   "devDependencies": {
     "@types/eventsource": "^1.1.6",
     "@types/jest": "^26.0.24",
@@ -47,6 +51,7 @@
     "axios": "^0.27.2",
     "module-alias": "^2.2.2",
     "module-alias-jest": "^0.0.3",
+    "reflect-metadata": "^0.1.13",
     "tsyringe": "^4.7.0"
   }
 }
