@@ -1,6 +1,11 @@
 import {Service} from '@interface/abstract/Service';
 import axios from 'axios';
+import {autoInjectable} from 'tsyringe';
 
+@autoInjectable()
 export class HttpService extends Service {
-  private readonly axios = axios;
+  constructor() {
+    super();
+    axios.get('');
+  }
 }
