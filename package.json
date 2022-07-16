@@ -1,6 +1,6 @@
 {
   "name": "wp-scrapper",
-  "version": "0.0.114",
+  "version": "0.0.115",
   "description": "Extract data from wordpress websites",
   "types": "lib/index.d.ts",
   "main": "lib/index.js",
